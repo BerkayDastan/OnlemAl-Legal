@@ -10,7 +10,7 @@
             line-height: 1.6;
             margin: 0;
             padding: 20px;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: #f4f7f6;
             min-height: 100vh;
         }
         .container {
@@ -19,54 +19,23 @@
             background: white;
             padding: 40px;
             border-radius: 15px;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
         }
         .header {
             text-align: center;
             margin-bottom: 30px;
             padding-bottom: 20px;
-            border-bottom: 3px solid #4A90E2;
+            border-bottom: 3px solid #1a73e8;
         }
         .logo {
-            font-size: 2.5em;
+            font-size: 2.2em;
             font-weight: bold;
-            color: #4A90E2;
+            color: #1a73e8;
             margin-bottom: 10px;
         }
-        .subtitle {
-            color: #666;
-            font-size: 1.1em;
-        }
-        h1 {
-            color: #333;
-            font-size: 2em;
-            margin-bottom: 20px;
-        }
-        h2 {
-            color: #4A90E2;
-            font-size: 1.4em;
-            margin-top: 30px;
-            margin-bottom: 15px;
-            padding-left: 15px;
-            border-left: 4px solid #4A90E2;
-        }
-        h3 {
-            color: #555;
-            font-size: 1.2em;
-            margin-top: 25px;
-            margin-bottom: 10px;
-        }
-        p {
-            margin-bottom: 15px;
-            text-align: justify;
-        }
-        .highlight {
-            background: #E3F2FD;
-            padding: 15px;
-            border-radius: 8px;
-            border-left: 4px solid #4A90E2;
-            margin: 20px 0;
-        }
+        h1 { color: #333; font-size: 1.8em; margin-bottom: 20px; }
+        h2 { color: #1a73e8; font-size: 1.3em; margin-top: 30px; border-left: 4px solid #1a73e8; padding-left: 15px; }
+        p, li { color: #555; text-align: justify; }
         .warning {
             background: #FFF3CD;
             padding: 15px;
@@ -80,32 +49,17 @@
             border-radius: 8px;
             margin-top: 30px;
         }
-        .contact-info h3 {
-            color: #4A90E2;
-            margin-top: 0;
-        }
         .footer {
             text-align: center;
             margin-top: 40px;
-            padding-top: 20px;
-            border-top: 1px solid #ddd;
-            color: #666;
-        }
-        ul {
-            padding-left: 20px;
-        }
-        li {
-            margin-bottom: 8px;
+            color: #888;
+            font-size: 0.9em;
         }
         .last-updated {
-            background: #FFF3CD;
-            padding: 10px;
-            border-radius: 5px;
-            border: 1px solid #FFEAA7;
-            margin-bottom: 20px;
             text-align: center;
             font-weight: bold;
             color: #856404;
+            margin-bottom: 20px;
         }
     </style>
 </head>
@@ -113,80 +67,59 @@
     <div class="container">
         <div class="header">
             <div class="logo">OnlemAl</div>
-            <div class="subtitle">Kötü Alışkanlıkları Bırak</div>
+            <p>Kötü Alışkanlıkları Bırakma Motivasyon Aracı</p>
         </div>
 
         <div class="last-updated">
-            Son Güncelleme: 15 Aralık 2024
+            Son Güncelleme: 22 Aralık 2025
         </div>
 
         <h1>Kullanım Koşulları</h1>
 
-        <div class="highlight">
-            <p>Bu Kullanım Koşulları ("Şartlar"), OnlemAl uygulamasını ("Uygulama", "Hizmet") kullanırken geçerli olan yasal koşulları belirler. Uygulamayı indirip kullanarak bu şartları kabul etmiş sayılırsınız.</p>
-        </div>
+        <p>Bu Kullanım Koşulları, <strong>OnlemAl</strong> uygulamasını ("Uygulama") kullanırken uymanız gereken kuralları belirler. Uygulamayı indirerek bu koşulları kabul etmiş sayılırsınız.</p>
 
-        <h2>1. Şirket Bilgileri</h2>
-        <p><strong>Şirket Unvanı:</strong> OnlemAl Teknoloji A.Ş.<br>
-        <strong>E-posta:</strong> dassimdevp@gmail.com</p>
-
-        <h2>2. Hizmet Tanımı</h2>
-        <p>OnlemAl, kötü alışkanlıkları bırakmaya yardımcı olan bir mobil uygulamadır. Aşağıdaki özellikleri içerir:</p>
-        <ul>
-            <li>Alışkanlık takip sistemi</li>
-            <li>SOS acil destek sistemi</li>
-            <li>Refakatçi sistemi</li>
-            <li>Topluluk desteği</li>
-            <li>Motivasyon araçları</li>
-            <li>Bildirim sistemi</li>
-        </ul>
+        <h2>1. Hizmet Sağlayıcı Bilgileri</h2>
+        <p>Bu uygulama bireysel bir geliştirici tarafından sunulmaktadır. Kurumsal bir şirket unvanı taşımamaktadır.<br>
+        <strong>İletişim:</strong> dassimdevp@gmail.com</p>
 
         <div class="warning">
             <h3>⚠️ Tıbbi Sorumluluk Reddi</h3>
-            <p><strong>OnlemAl bir tıbbi uygulama değildir ve profesyonel tıbbi tavsiye, teşhis veya tedavi sağlamaz.</strong> Ciddi bağımlılık sorunları için mutlaka profesyonel yardım alın.</p>
+            <p><strong>OnlemAl bir sağlık uygulaması, tıbbi cihaz veya terapi yöntemi değildir.</strong> Uygulama içerisinde sunulan içerikler sadece motivasyon ve takip amaçlıdır. Bağımlılık tedavisi veya tıbbi teşhis koyma amacı gütmez. Ciddi sağlık durumlarınız için bir doktora veya psikoloğa danışmanız zorunludur.</p>
         </div>
 
-        <h2>3. Kullanıcı Yükümlülükleri</h2>
-        
-        <h3>3.1 Doğru Bilgi Sağlama</h3>
+        <h2>2. Hizmet Tanımı</h2>
+        <p>OnlemAl, kişisel gelişim yolculuğunuzda size yardımcı olacak şu araçları sunar:</p>
         <ul>
-            <li>Kayıt sırasında doğru ve güncel bilgi sağlamalısınız</li>
-            <li>Hesap bilgilerinizi güncel tutmalısınız</li>
-            <li>Sahte kimlik kullanmamalısınız</li>
+            <li>Günlük alışkanlık sayaçları ve takibi.</li>
+            <li>Motivasyonel bildirimler ve SOS destek notları.</li>
+            <li>Kullanıcı topluluğu ve refakatçi etkileşimleri.</li>
         </ul>
 
-        <h3>3.2 Yasak Kullanımlar</h3>
-        <p>Aşağıdaki eylemler kesinlikle yasaktır:</p>
+        <h2>3. Kullanıcı Sorumlulukları</h2>
+        <p>Uygulamayı kullanırken aşağıdaki kurallara uymayı taahhüt edersiniz:</p>
         <ul>
-            <li>Yasalara aykırı faaliyetler</li>
-            <li>Diğer kullanıcılara zarar verme</li>
-            <li>Spam veya zararlı içerik paylaşma</li>
-            <li>Uygulamanın güvenliğini tehdit etme</li>
-            <li>Telif hakkı ihlali</li>
+            <li>Hizmeti yasalara aykırı amaçlarla kullanmamak.</li>
+            <li>Diğer kullanıcıları rahatsız edici veya taciz edici içerikler paylaşmamak.</li>
+            <li>Uygulamanın teknik güvenliğini ihlal etmeye çalışmamak.</li>
         </ul>
 
-        <h2>4. Fikri Mülkiyet</h2>
-        <p>OnlemAl uygulaması ve tüm içeriği telif hakkı ile korunmaktadır. İzinsiz kopyalama, dağıtma veya değiştirme yasaktır.</p>
+        <h2>4. Hesap Yönetimi ve Silme</h2>
+        <p>Kullanıcılar hesaplarını istedikleri zaman uygulama üzerinden kalıcı olarak silebilirler. Hesap silme talebi gerçekleştiğinde, kullanıcıya ait tüm veriler 30 gün içerisinde sistemden temizlenir.</p>
 
-        <h2>5. Hesap Sonlandırma</h2>
-        <p>Hesabınızı istediğiniz zaman silebilirsiniz. Hesap silindiğinde tüm kişisel verileriniz 30 gün içinde kalıcı olarak silinir.</p>
+        <h2>5. Fikri Mülkiyet</h2>
+        <p>Uygulamanın tasarımı, ismi ve içeriği geliştiriciye aittir. İzinsiz kopyalanması veya ticari amaçla kullanılması yasaktır.</p>
 
-        <h2>6. Hizmet Değişiklikleri</h2>
-        <p>Hizmetlerimizi önceden bildirimde bulunarak değiştirme, güncelleme veya sonlandırma hakkımız saklıdır.</p>
-
-        <h2>7. Sorumluluk Sınırlaması</h2>
-        <p>OnlemAl, uygulamanın kullanımından kaynaklanan doğrudan veya dolaylı zararlardan sorumlu değildir.</p>
+        <h2>6. Sorumluluk Sınırı</h2>
+        <p>OnlemAl, uygulamanın teknik arızalarından veya kullanımından kaynaklanabilecek veri kayıplarından veya dolaylı zararlardan sorumlu tutulamaz. Hizmet "olduğu gibi" sunulmaktadır.</p>
 
         <div class="contact-info">
             <h3>İletişim</h3>
-            <p>Kullanım koşulları hakkında sorularınız için bizimle iletişime geçebilirsiniz:</p>
-            <p><strong>E-posta:</strong> dassimdevp@gmail.com<br>
-            <strong>Şirket:</strong> OnlemAl Teknoloji A.Ş.</p>
+            <p>Kullanım koşullarıyla ilgili her türlü soru için:</p>
+            <p><strong>E-posta:</strong> dassimdevp@gmail.com</p>
         </div>
 
         <div class="footer">
-            <p>&copy; 2024 OnlemAl Teknoloji A.Ş. Tüm hakları saklıdır.</p>
-            <p>Bu kullanım koşulları 15 Aralık 2024 tarihinde güncellenmiştir.</p>
+            <p>&copy; 2024 OnlemAl. Tüm hakları saklıdır.</p>
         </div>
     </div>
 </body>
